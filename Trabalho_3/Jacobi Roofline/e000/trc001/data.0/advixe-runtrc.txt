@@ -1,0 +1,10 @@
+
+=== Start: [2023/07/02 21:20:07] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000\trc001\trc001.advixe 
+Application exit code: 0 
+Result file: C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000\trc001\trc001.advixe 
+Analysis completed
+=== End: [2023/07/02 21:20:30] === 

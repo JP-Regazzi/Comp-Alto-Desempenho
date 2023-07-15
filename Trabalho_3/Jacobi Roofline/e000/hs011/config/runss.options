@@ -1,0 +1,18 @@
+-r
+C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000\hs011
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--itt-config=frame,task,event,counter,model
+--stackwalk=offline
+--stack-unwind-limit=8388608
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--opencl-trace-mode=default
+--app-working-dir=C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3
+--
+C:\Users\jacobi.exe

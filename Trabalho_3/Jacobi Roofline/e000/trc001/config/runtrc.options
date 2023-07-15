@@ -1,0 +1,13 @@
+-r
+C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000\trc001
+--return-app-exitcode
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--cs-file=C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000/callstacks.def
+--jit-profiling
+--target-gpu=none
+--app-working-dir=C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3
+--
+C:\Users\jacobi.exe

@@ -1,0 +1,54 @@
+Collection status has changed. 1
+Collection has been started.
+Collection has stopped. Application exit code:  0
+Finalizing results
+Finalizing the result
+Clearing the database
+The database has been cleared, elapsed time is 0.281 seconds.
+Loading raw data to the database
+Loading 'bandwidth_1688343403.hpc' file
+Loading 'systemcollector-22416-Laptop-Zephyrus-G15.sc' file
+Loading '16656-24020.0.trace' file
+Loading 'tripcounts_23828_0.tcs' file
+Error: Cannot load data file `C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\Jacobi Roofline\e000\hs011\data.1\advixe-runtrc.txt' ().
+Updating precomputed scalar metrics
+Raw data has been loaded to the database, elapsed time is 0.173 seconds.
+Processing profile metrics and debug information
+Data transformations have been finished, elapsed time is 0.002 seconds.
+Setting data model parameters
+Resolving module symbols
+Resolving information for `kernel32.dll'
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\kernel32.dll'.
+Resolving information for `KernelBase.dll'
+Resolving information for `jacobi.exe'
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\KernelBase.dll'.
+Resolving information for `ntdll.dll'
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\ntdll.dll'.
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Symbol resolution has been finished, elapsed time is 0.262 seconds.
+Processing profile metrics and debug information
+Resolving FLOP information
+Processing information for self instruction mix report
+Calculating function call count
+Processing information for light dynamic instruction mix report
+Deferred data transformations have been finished, elapsed time is 0.247 seconds.
+Setting data model parameters
+Data model parameters have been set, elapsed time is 0.014 seconds.
+Precomputing frequently used data
+Precomputing frequently used data
+Updating precomputed scalar metrics
+Precomputing frequently used data has been finished, elapsed time is 0.041 seconds.
+Discarding redundant overtime data
+Saving the result
+Redundant overtime data has been discarded, elapsed time is 0.004 seconds.
+Raw collector data has been discarded, elapsed time is 0.000 seconds.
+Finalizing the result took 1.283 seconds.
+Preparing data for display of survey call tree
+Resolving module symbols
+Resolving information for dangling locations
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Precomputing frequently used data

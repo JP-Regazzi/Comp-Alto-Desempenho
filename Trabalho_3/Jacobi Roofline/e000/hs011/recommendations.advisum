@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\jacobi.c"
+           line_no="59"
+           routine="run"
+           is_vectorized="1"
+           self_time="1.645898E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="23"
+           priority="0">
+           <recommendation id="rec_fma_target_avx2_isa_c" title="Target the AVX2 ISA" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\jacobi.c"
+           line_no="108"
+           routine="main"
+           is_vectorized="0"
+           self_time="9.079543E-03"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="8"
+           priority="0">
+           <recommendation id="rec_type_conversions_smallest_c" title="Use the smallest data type" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\jacobi.c"
+           line_no="108"
+           routine="main"
+           is_vectorized="0"
+           self_time="9.079543E-03"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="8"
+           priority="0">
+           <recommendation id="rec_system_functions_move_c" title="Remove system function call(s) inside loop" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\Joao Pedro\Desktop\Agenda-Guia\UFRJ\2023.1\Comp_Alto_Desempenho\Comp-Alto-Desempenho\Trabalho_3\jacobi.c"
+           line_no="105"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="10"
+           priority="0">
+           <recommendation id="rec_type_conversions_smallest_c" title="Use the smallest data type" confidence="1" gain="-1"/>
+  </hotspot>
+</IntelParallelAdvisorSummary >

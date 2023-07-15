@@ -1,0 +1,233 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      4406	    0	      0	                          mainCRTStartup	C:\Users\jacobi.exe	4406	5	0	5	0	0	0	0	0	0	0	0
+         2	        -1	    440014	    0	      1	                         func@0x4b2eb6b4	C:\Windows\SysWOW64\ntdll.dll	439988	28	0	3	0	0	0	0	0	0	0	0
+         3	         2	    440138	    0	      1	                         func@0x4b2eb720	C:\Windows\SysWOW64\ntdll.dll	440096	255	0	4	0	0	0	0	0	0	0	0
+         4	         3	     97624	    0	      1	                     BaseThreadInitThunk	C:\Windows\SysWOW64\kernel32.dll	97600	58	0	1	0	0	0	0	0	0	0	0
+         5	        49	     73610	    0	      0	                             invoke_main	C:\Users\jacobi.exe	73583	31	0	6	0	1	0	0	0	0	0	0
+         6	        52	     33738	    1	      0	              [Loop at line 108 in main]	C:\Users\jacobi.exe	33712	59	33771	8	0	0	0	0	0	0	0	0
+         7	        52	     33764	    1	      0	              [Loop at line 108 in main]	C:\Users\jacobi.exe	33712	59	33771	8	0	0	0	0	0	0	0	0
+         8	        52	     33722	    1	      0	              [Loop at line 108 in main]	C:\Users\jacobi.exe	33712	59	33771	8	0	0	0	0	0	0	0	0
+         9	         8	    132334	    0	      0	                                    rand	C:\Users\jacobi.exe	132330	33	0	11	0	0	0	0	0	0	0	0
+        10	        59	    336224	    0	      0	                        try_get_ptd_head	C:\Users\jacobi.exe	336209,336240	20,5	0	12	0	1	0	0	0	0	0	0
+        11	        10	    344565	    0	      0	                       _acrt_FlsGetValue	C:\Users\jacobi.exe	344516	63	0	17	0	0	0	0	0	0	0	0
+        12	        11	   1173931	    0	      1	                             FlsGetValue	C:\Windows\SysWOW64\KernelBase.dll	1173904	76	0	2	0	0	0	0	0	0	0	0
+        13	        65	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        14	        70	     34349	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        15	        76	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        16	        81	     34983	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        17	        86	     34335	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        18	        91	     34903	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        19	        96	     34355	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        20	       101	     34390	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        21	       106	     35435	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        22	       108	     34419	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        23	       113	     34423	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        24	       118	     34395	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        25	       123	     34920	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        26	       128	     34987	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        27	       133	     34937	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        28	       106	     34644	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        29	       139	     34411	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        30	       144	     34941	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        31	       151	     34165	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        32	       106	     34581	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        33	       155	     34360	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        34	       160	     34929	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        35	       165	     34386	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        36	       170	     34915	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        37	       175	     34895	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        38	       180	     34881	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        39	       185	     34343	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        40	       190	     34879	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        41	       195	     34946	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        42	       200	     34971	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        43	       205	     34887	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        44	       106	     34488	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        45	       211	     34967	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        46	       216	     34377	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        47	       221	     34319	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        48	       226	     34955	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        49	         4	     73583	    0	      0	                  __scrt_common_main_seh	C:\Users\jacobi.exe	73361	386	0	7	0	0	0	0	0	0	0	0
+        50	         4	     73610	    0	      0	                  __scrt_common_main_seh	C:\Users\jacobi.exe	73361	386	0	7	0	0	0	0	0	0	0	0
+        51	         5	     33696	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        52	        51	     33712	    1	      0	              [Loop at line 105 in main]	C:\Users\jacobi.exe	33696	167	33863	10	0	0	0	0	0	0	0	0
+        53	         5	     33738	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        54	         5	     33764	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        55	         5	     33722	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        56	         9	    336201	    0	      0	                            _acrt_getptd	C:\Users\jacobi.exe	336197	187	0	13	0	0	0	0	0	0	0	0
+        57	        56	    336209	    0	      0	                  internal_getptd_noexit	C:\Users\jacobi.exe	336201,336262,336362	60,99,7	0	16	0	1	0	0	0	0	0	0
+        58	        57	    336209	    0	      0	                  internal_getptd_noexit	C:\Users\jacobi.exe	336209,336262	52,99	0	15	0	1	0	0	0	0	0	0
+        59	        58	    336209	    0	      0	                   internal_get_ptd_head	C:\Users\jacobi.exe	336209,336262	52,99	0	14	0	1	0	0	0	0	0	0
+        60	         9	    336224	    0	      0	                            _acrt_getptd	C:\Users\jacobi.exe	336197	187	0	13	0	0	0	0	0	0	0	0
+        61	         5	     34080	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        62	        61	     34128	    1	      0	              [Loop at line 121 in main]	C:\Users\jacobi.exe	34080,34500,34800,35066,35439,35456,35600,35616	380,9,223,9,9,133,6,74	34460,35023,35690	21	0	0	0	0	0	0	0	0
+        63	        62	     33907	    1	      0	               [Loop at line 56 in main]	C:\Users\jacobi.exe	34128,34500,34800,35066,35439	332,9,223,9,9	35456,34460,35023	20	0	0	0	0	0	0	0	0
+        64	        63	     34304	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        65	        64	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        66	        63	     34427	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        67	         5	     34427	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        68	        65	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        69	        65	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        70	        64	     34349	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        71	        63	     34349	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        72	         5	     34349	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        73	        70	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        74	        70	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        75	        63	     34864	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        76	        75	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        77	        63	     34979	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        78	         5	     34979	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        79	        76	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        80	        76	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        81	        75	     34983	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        82	        63	     34983	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        83	         5	     34983	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        84	        81	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        85	        81	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        86	        64	     34335	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        87	        63	     34335	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        88	         5	     34335	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        89	        86	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        90	        86	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        91	        75	     34903	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        92	        63	     34903	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        93	         5	     34903	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        94	        91	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+        95	        91	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+        96	        64	     34355	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+        97	        63	     34355	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+        98	         5	     34355	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+        99	        96	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       100	        96	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       101	        64	     34390	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       102	        63	     34390	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       103	         5	     34390	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       104	       101	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       105	       101	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       106	         5	     33907	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       107	         5	     35435	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       108	        64	     34419	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       109	        63	     34419	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       110	         5	     34419	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       111	       108	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       112	       108	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       113	        64	     34423	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       114	        63	     34423	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       115	         5	     34423	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       116	       113	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       117	       113	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       118	        64	     34395	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       119	        63	     34395	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       120	         5	     34395	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       121	       118	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       122	       118	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       123	        75	     34920	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       124	        63	     34920	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       125	         5	     34920	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       126	       123	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       127	       123	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       128	        75	     34987	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       129	        63	     34987	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       130	         5	     34987	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       131	       128	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       132	       128	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       133	        75	     34937	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       134	        63	     34937	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       135	         5	     34937	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       136	       133	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       137	       133	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       138	         5	     34644	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       139	        64	     34411	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       140	        63	     34411	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       141	         5	     34411	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       142	       139	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       143	       139	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       144	        75	     34941	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       145	        63	     34941	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       146	         5	     34941	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       147	       144	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       148	       144	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       149	         5	     34080	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       150	       149	     34128	    1	      0	              [Loop at line 121 in main]	C:\Users\jacobi.exe	34080,34500,34800,35066,35439,35456,35600,35616	380,9,223,9,9,133,6,74	34460,35023,35690	21	0	0	0	0	0	0	0	0
+       151	       150	     33907	    1	      0	               [Loop at line 56 in main]	C:\Users\jacobi.exe	34128,34500,34800,35066,35439	332,9,223,9,9	35456,34460,35023	20	0	0	0	0	0	0	0	0
+       152	       150	     34165	    1	      0	               [Loop at line 56 in main]	C:\Users\jacobi.exe	34128,34500,34800,35066,35439	332,9,223,9,9	35456,34460,35023	20	0	0	0	0	0	0	0	0
+       153	         5	     34165	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       154	         5	     34581	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       155	        64	     34360	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       156	        63	     34360	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       157	         5	     34360	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       158	       155	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       159	       155	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       160	        75	     34929	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       161	        63	     34929	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       162	         5	     34929	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       163	       160	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       164	       160	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       165	        64	     34386	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       166	        63	     34386	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       167	         5	     34386	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       168	       165	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       169	       165	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       170	        75	     34915	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       171	        63	     34915	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       172	         5	     34915	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       173	       170	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       174	       170	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       175	        75	     34895	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       176	        63	     34895	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       177	         5	     34895	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       178	       175	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       179	       175	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       180	        75	     34881	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       181	        63	     34881	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       182	         5	     34881	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       183	       180	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       184	       180	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       185	        64	     34343	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       186	        63	     34343	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       187	         5	     34343	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       188	       185	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       189	       185	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       190	        75	     34879	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       191	        63	     34879	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       192	         5	     34879	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       193	       190	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       194	       190	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       195	        75	     34946	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       196	        63	     34946	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       197	         5	     34946	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       198	       195	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       199	       195	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       200	        75	     34971	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       201	        63	     34971	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       202	         5	     34971	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       203	       200	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       204	       200	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       205	        75	     34887	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       206	        63	     34887	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       207	         5	     34887	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       208	       205	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       209	       205	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       210	         5	     34488	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       211	        75	     34967	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       212	        63	     34967	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       213	         5	     34967	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       214	       211	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       215	       211	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       216	        64	     34377	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       217	        63	     34377	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       218	         5	     34377	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       219	       216	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       220	       216	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       221	        64	     34319	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       222	        63	     34319	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       223	         5	     34319	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       224	       221	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       225	       221	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       226	        75	     34955	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304,34864	137,137	34441,35001	23	0	0	0	0	0	0	0	0
+       227	        63	     34955	    0	      0	                                     run	C:\Users\jacobi.exe	33907,33942,34023,34485,35038,35504,35632	30,74,437,538,418,75,58	0	19	0	1	0	0	0	0	0	0
+       228	         5	     34955	    0	      0	                                    main	C:\Users\jacobi.exe	33344	3392	0	9	0	0	0	0	0	0	0	0
+       229	       226	     34427	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34304	137	34441	18	0	0	0	0	0	0	0	0
+       230	       226	     34979	    1	      0	                [Loop at line 59 in run]	C:\Users\jacobi.exe	34864	137	35001	22	0	0	0	0	0	0	0	0
+       231	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	25	0	0	0	0	0	0	0	0
